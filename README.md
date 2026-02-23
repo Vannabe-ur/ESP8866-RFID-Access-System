@@ -19,6 +19,7 @@ This project implements a simple RFID-based access system using an **ESP8266 (No
 
 #### **Pin Connections**
 - ***0.96" OLED (I2C)***
+  
 | OLED Pin | ESP8266 Pin |
 | -------- | ----------- |
 | VCC      | 3.3V        |
@@ -27,6 +28,7 @@ This project implements a simple RFID-based access system using an **ESP8266 (No
 | SCL      | D1 (GPIO5)  |
 
 - ***RFID MFRC522 (SPI)***
+  
 | RFID Pin | ESP8266 Pin |
 | -------- | ----------- |
 | SDA      | D8 (GPIO15) |
@@ -38,6 +40,7 @@ This project implements a simple RFID-based access system using an **ESP8266 (No
 | GND      | GND         |
 
 - ***LEDs***
+  
 | LED   | ESP8266 Pin | Resistor |
 | ----- | ----------- | -------- |
 | Green | D1 (GPIO5)  | 1 kΩ     |
